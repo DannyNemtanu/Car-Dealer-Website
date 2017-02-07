@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" media="screen" href="css/store.css" title="no title" type="text/css" charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nolan Website</title>
+    <script type="text/javascript" src="https://ajax.microsoft.com/ajax/jQuery/jquery-1.4.2.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script src="js/script.js"></script>
+</head>
+  <body>
+    <div class="wrap" id="body">
+
+<!-- Start Nav -->
+<!-- ================================= -->
+<nav>
+   <div id="logo">
+       <a href="index.html"><img src="img/png/logo.png" alt=""></a>
+   </div>
+    <ul id="mainmenu">
+        <li><button id="opened" onclick="subscribe()">Sign In</button></li>
+        <li><button id="contactnavbtn" onclick="contact()">Contact Us</button></li>
+        <li><a href="hotdeals.html">Hot Deals</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+</nav>
+<!-- End Nav -->
+
+<!--Start Content -->
+        <div class="content">
+            <h1>Hey Hey Hey <br> This Page Was Not Fhinished But It Will Be Soon</h1>
+            
+            <p>Thank You For Undestanding</p>
+            
+        </div>
+        
+<!--        End Content-->
+</div>
+
+<!--Footer-->
+      
+      <div class="footer">
+      <ul class="fst-one">
+        <li><h1>VEHICLES</h1></li>
+        <li><a href="#">Passenger Cars</a></li>
+        <li><a href="#">Commercial Vehicles</a></li>
+        <li><a href="#">Compare Mercedez Cars</a></li>
+        <li><a href="#">Gold Standard Used Cars</a></li>
+        <li><a href="#">Book a Test Drive</a></li>
+      </ul>
+      <ul class="second-group">
+        <li><h1>OFFERS & FINANCE</h1></li>
+        <li><a href="#">New Cars Offers</a></li>
+        <li><a href="#">Servicing Offers</a></li>
+        <li><a href="#">Finance Explaining</a></li>
+        <li><a href="#">Go To Calculator</a></li>
+      </ul>
+      <ul class="third-group">
+        <li><h1>MERCEDES OWNERS</h1></li>
+        <li><a href="#">Mercedez-Connect</a></li>
+        <li><a href="#">Mercedez Merchendaise</a></li>
+        <li><a href="#">On-line Booking</a></li>
+        <li><a href="#">Warranty Explained</a></li>
+        <li><a href="#">Roadside Assistan</a></li>
+        <li><a href="#">Servicing</a></li>
+      </ul>
+      <ul class="fourth-group">
+          <li><h1>CONTACT US</h1></li>
+        <li><a href="#">Find a Dealer</a></li>
+        <li><a href="#">Request Brochure</a></li>
+        <li><a href="#">NCT pre-test</a></li>
+        <li><a href="#">Book a Test Drive</a></li>
+        <li><a href="#">Mercedez Ireland</a></li>
+      </ul>
+    </div>
+    
+<!--    End Footer-->
+<!--Modal Window-->
+      
+       <div id="popup"></div>
+       <div id="modal">
+       <button id="closemodal" onclick="closeModal()"><img src="img/png/close.png" alt="closemodal"></button>
+        <div class="btn">
+            <button onclick="signIn()" id="signinbtn">Login</button>
+            <button onclick="signUp()" id="signupbtn">Sing Up</button>
+        </div>
+        <div id="sign">
+           <div class="register">
+<!--           Start Log In-->
+            <div id="login">
+                <form action="#" method="post">
+                    <table>
+                       <h1>Log In</h1>
+                        <tr>
+                            <td><img src="img/png/user.png" alt="userlogo"><input type="text" for="fname" required="required" placeholder="Username / E-mail"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/pass.png" alt="passlogo"><input type="password" placeholder="Password"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p><input type="checkbox">Kepp me signed in.</p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p>Not a member yet? <a href="#">Register Now</a></p></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <button type="submit" id="signinform" value="login">Log In</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            
+            
+<!--            End Log In-->
+           
+           
+<!--           Start Register-->
+            <div id="signup">
+                <form action="#" method="get" id="myform">
+                    <table>
+                        <h1>Sign Up</h1>
+                        <tr>
+                            <td><img src="img/png/user.png" alt="namelogo"><input type="text" name="fname" placeholder="First Name" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/user.png" alt="lastnamelogo"><input type="text" name="lname" required="required" placeholder="Last Name"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/mail.png" alt="emaillogo"><input type="email" name="email" placeholder="email@example.com" required="required"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/pin.png" alt="pinglogo"><input type="text" for="address" placeholder="Your Address" required="required" name="address"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/create.png" alt="passlogo"><input type="password" for="password" required="required" placeholder="Password" id="pass" name="password"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/png/confirm.png" alt="confrimlogo"><input type="password" id="confirm" name="confirm" placeholder="Confirm Password" required="required" name="confirm"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><p><input type="checkbox">I would like to recive offers newslatter.</p></td>
+                            <tr>
+                                <td colspan="2"><p><input type="checkbox" id="terms" required="required">I am agree with <a href="#">Terms & Conditions</a></p></td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td colspan="2"><input type="submit" value="Submit" name="submit" onclick="validate()" id="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+           </div>
+           
+<!--           End Register-->
+         </div>
+        </div>
+<!--        End Modal Register-->
+
+<!--Start Modal Contact Us-->
+        <div id="contactusmodal">
+           <div class="contactbtns">
+               <button id="findus" onclick="findform()">Find Us</button>
+               <button id="contactus" onclick="contactform()">Contact Us</button>
+           </div>
+           <button id="contactclosemodal" onclick="contactClose()"><img src="img/png/close.png" alt=""></button>
+            <div id="queries">
+               <h1>How Can We Help You ?</h1>
+                <form action="#" method="get">
+                    <table>
+                       <tr>
+                           <td><img src="img/png/user.png" alt="name"><input type="text" name="user" placeholder="Your First Name" required="required"></td>
+                       </tr>
+                       <tr>
+                           <td><img src="img/png/mail.png" alt=""><input type="email" required="required" placeholder="email@example.com"></td>
+                       </tr>
+                        <tr>
+                            <td><img src="img/png/question.png" alt="question"><input type="text" name="question" required="required" placeholder="Question"></td>
+                        </tr>
+                        <tr>
+                            <td><textarea name="message" id="textquestion" placeholder="Your Message" required="required"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><button id="send" onclick="sendquestion()">Send Question</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div id="map">
+                <div class="address">
+                    <h1>Our Address</h1>
+                    <ul>
+                        <li><p><img src="img/png/pin.png" alt="mapping">Mayor Street, IFSC, Dublin 1</p></li>
+                        <li><p><img src="img/png/globe.png" alt="website">www.ncirl.ie<p></li>
+                        <li><p><img src="img/png/mobile.png" alt="Phone">(01) 449 8500</p></li>
+                    </ul>
+                </div>
+                <div class="location">
+                    <h1>You Also Can Fin Us On Maps</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3991.6740923579237!2d-6.246046878664106!3d53.34856043888435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8cd86e97e7%3A0x6d51b774ee7fa935!2sNational+College+of+Ireland!5e0!3m2!1sen!2sie!4v1448879964850" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    
+<!--    End Modal Contact Us-->
+</body>
+</html>
