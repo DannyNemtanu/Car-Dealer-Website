@@ -1,5 +1,10 @@
 
 
+/*Bsic Style*/
+/*=================================*/
+@import 'normalize.css';
+
+
 @font-face {
     font-family:600 14px/24px 'Trebuchet MS Regular',Times,'Corporate A BQ',verdana,sans-serif;
 }
