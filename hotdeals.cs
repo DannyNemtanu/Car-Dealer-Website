@@ -1,3 +1,4 @@
+
 $('.fst').ready(function(){
   $images1 = $('.fst #subimages');
   $largeImage1 = $('.fst #largeImage');
