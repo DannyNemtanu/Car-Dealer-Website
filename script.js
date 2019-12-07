@@ -135,7 +135,7 @@ function validate(){
         alert("Please Ensure you wrote the password correctly");
         return false;
     }
-    else if (term.checked == 0){
+    else if (term.checked == 0)
         alert("Please Read The Terms & Condition and check the box to proceed");
     }
     else{
