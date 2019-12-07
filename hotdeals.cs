@@ -62,3 +62,4 @@ $('.frth').ready( function(){
     $specs4.slideToggle();
   });
 });
+
